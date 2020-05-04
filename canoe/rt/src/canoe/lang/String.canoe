@@ -1,0 +1,23 @@
+// 包名
+package canoe.lang
+
+
+String :public {
+    value :byte[] :private ->
+
+    // 实现Clone对象的方法体， => 表明该方法不可被子类更改，一旦更改 则 不再是String对象
+    clone => :String {
+        // 应当返回一个克隆对象 类型是String的对象
+
+
+    }
+    => {}
+} 
+
+@ i : range(1)  {
+
+}
+
+@ {
+    
+}
